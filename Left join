@@ -1,0 +1,3 @@
+SELECT * FROM `employees` 
+LEFT JOIN payments
+ON payments.customerNumber=payments.customerNumber;

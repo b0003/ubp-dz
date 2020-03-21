@@ -1,0 +1,3 @@
+SELECT * FROM `customers` 
+RIGHT JOIN products
+ON customers.phone=customers.phone;

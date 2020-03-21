@@ -1,0 +1,7 @@
+SELECT `phone`
+FROM customers
+WHERE city ='New York'
+UNION
+SELECT `phone`
+FROM customers
+WHERE country='USA'
